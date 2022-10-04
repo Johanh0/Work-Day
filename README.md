@@ -6,6 +6,7 @@ Work day is an app for help you to schedule your day, saving your data and showi
 
 - HTML
 - CSS
+- JavaScript
 - Boostrap
 - jQuery
 - Google Fonts
