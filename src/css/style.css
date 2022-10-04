@@ -5,12 +5,17 @@ body {
     font-size: 16px;
     line-height: 1;
   }
+
+  .darkMode-activate {
+    background-color: #2C2C2C;
+    color: white;
+  }
   
   textarea{
     background: transparent;
     border: none;
     resize: none;
-    color: #000000;
+    /* color: #000000; */
     border-left: 1px solid black;
     padding: 10px;
   }
@@ -18,9 +23,9 @@ body {
   .jumbotron {
     text-align: center;
     background-color: transparent;
-    color: black;
+    /* color: black; */
     border-radius: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 2px solid black;
   }
 
   .container {
@@ -46,24 +51,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
-    color: #000000;
+    /* background-color: #ffffff; */
+    /* color: #000000; */
     border-top: 1px dashed #000000;
   }
   
   .past {
     background-color: #d3d3d3;
-    color: white;
+    /* color: white; */
   }
   
   .present {
     background-color: #ff6961;
-    color: white;
+    /* color: white; */
   }
   
   .future {
     background-color: #77dd77;
-    color: white;
+    /* color: white; */
   }
   
   .saveBtn {
@@ -76,8 +81,25 @@ body {
     background-color: #007BFF;
     color: white;
   }
+
+  .saveBtn:hover {
+    background-color: #0572e8;
+
+  }
   
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
+
+.darkMode {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 15px 45px;
+}
+
+.fa-moon {
+    font-size: 25px;
+    cursor: pointer;
+}
