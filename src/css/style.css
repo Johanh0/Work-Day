@@ -29,7 +29,8 @@ body {
   }
 
   .container {
-    margin-bottom: 30px;
+    height: 55vh;
+    overflow: scroll;
   }
   
   .description{
